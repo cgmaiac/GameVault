@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVault - Loja de Games</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>GameVault<h1>
+
+                <nav>
+                    <button id="menu-btn">☰</button>
+
+                    <ul id="menu">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#jogos">Jogos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio">
+
+            <h2>Sua proxima aventura começa aqui!</h2>
+            <p>Encontre seus jogos favoritos na GameVault.</p>
+            <a href="#jogos">Ver jogos</a>
+
+        </section>
+
+        <section id="jogos">
+
+            <h2>Jogos em destaque</h2>
+
+            <div class="produtos">
+                
+                <article class="produto">
+                    <img src="img/resident-good-2.jpg" alt="Capa do jogo Resident Good 2">
+                    <h3>Resident Good 2</h3>
+                    <p>R$ 163,90</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="produto">
+                    <img src="img/light-souls.jpg" alt="Capa do jogo Light Souls">
+                    <h3>Light Souls</h3>
+                    <p>R$ 74,90</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="produto">
+                    <img src="img/grand-purchase-auto-6.jpg" alt="Capa do jogo Grand Purchase Auto 6">
+                    <h3>Grand Purchase Auto 6</h3>
+                    <p>R$ 449,99</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="produto">
+                    <img src="img/god-of-peace.jpg" alt="Capa do jogo God Of Peace">
+                    <h3>God Of Peace</h3>
+                    <p>R$ 199,90</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="produto">
+                    <img src="img/the-first-of-us.jpg" alt="Capa do jogo The First Of Us">
+                    <h3>The First Of Us</h3>
+                    <p>R$ 199,90</p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="produto">
+                    <img src="img/blue-life-condemnation-2.jpg" alt="Capa do jogo Blue Life Condemnation 2">
+                    <h3>Blue Life Condemnation 2</h3>
+                    <p>R$ 299,99</p>
+                    <button>Comprar</button>
+                </article>
+
+            </div>
+
+            <div class="frete">
+                <h3>Calcule seu frete</h3>
+
+                    <label for="valor-compra">Valor da compra:</label>
+                    <input type="number" id="valor-compra" min="0" step="0.01">
+
+                    <button id="calcular-frete">Calcular frete</button>
+
+                    <p id="resultado-frete"></p>
+            </div>
+
+        </section>
+
+        <section id="contato">
+
+            <h2>Entre em contato</h2>
+
+            <form id="form-contato">
+                <!-- Seus campos de nome, e-mail e mensagem -->
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 GameVault - Loja de Games</p>
+
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
